@@ -17,13 +17,13 @@
     "LANGUAGE": "en_US",
     "LOG_LEVEL": 1,
     "MODERATORS": [
-        "MAIN_UID"
+        "61558651089120"
     ],
     "ABSOLUTES": [
-        "ADMIN_UID"
+        "61558651089120"
     ],
-    "NAME": "BOT_NAME",
-    "PREFIX": "PREFIX_HERE",
+    "NAME": "𝐒𝐔𝐌𝐈-𝐀𝐈",
+    "PREFIX": "+",
     "timezone": "Asia/Dhaka",
     "REFRESH": "43200000"
 }
