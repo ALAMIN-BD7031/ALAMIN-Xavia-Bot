@@ -1,4 +1,4 @@
-Const langData = {
+const langData = {
     "en_US": {
         "download.tiktok.success": "{title}\n\n\n @{author}",
         "download.tiktok.error": "Failed to download TikTok video",
@@ -47,7 +47,7 @@ async function downloadTikTok(url) {
 async function downloadFacebook(url) {
     try {
         const encodedUrl = encodeURIComponent(url);
-        const response = await axios.get(`https://https://aryan-nix-apis.vercel.app/api/fbdl?url=${encodedUrl}`);
+        const response = await axios.get(`https://aryan-nix-apis.vercel.app/api/fbdl?url=${encodedUrl}`);
 
         if (!response.data || !response.data.url) {
             throw new Error();
@@ -67,7 +67,7 @@ async function downloadFacebook(url) {
 async function downloadInstagram(url) {
     try {
         const encodedUrl = encodeURIComponent(url);
-        const response = await axios.get(`https://https://aryan-nix-apis.vercel.app/api/igdl?url=${encodedUrl}`);
+        const response = await axios.get(`https://aryan-nix-apis.vercel.app/api/igdl?url=${encodedUrl}`);
 
         if (!response.data || !response.data.url) {
             throw new Error();
@@ -87,7 +87,7 @@ async function downloadInstagram(url) {
 async function downloadYouTube(url) {
     try {
         const encodedUrl = encodeURIComponent(url);
-        const response = await axios.get(`https://https://aryan-nix-apis.vercel.app/api/ytdl?url=${encodedUrl}`);
+        const response = await axios.get(`https://aryan-nix-apis.vercel.app/api/ytdl?url=${encodedUrl}`);
 
         if (!response.data || !response.data.url) {
             throw new Error();
